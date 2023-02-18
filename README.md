@@ -1,1 +1,1 @@
-# Group3_gcs-2 projects
+Adding names of group members
