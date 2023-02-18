@@ -1,0 +1,6 @@
+echo "group coding"
+read text
+word=$(echo -n"$text" |wc -w)
+echo "the number of words are : "$word
+space=$(echo $text | awk -F "" '{for(i=1;i<=NF;i++)if($i==" ")c++ }END{print c}')
+echo "the numbers of white spaces is: "$space
