@@ -1,1 +1,1 @@
-Adding names of group members
+Adding message template
