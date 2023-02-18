@@ -1,0 +1,9 @@
+echo "Enter the path of message.txt:"
+read message.txt
+
+echo "Enter the path of names.txt:"
+read names.txt
+
+while read -r Negpo-3; do
+sed "s/Negpo-3/$Negpo-3/g" "$message.txt" > "$Negpo-3.txt"
+done < "$names.txt"
