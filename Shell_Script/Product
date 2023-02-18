@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+clear
+echo "Product Of Two Numbers"
+echo  -n "Enter first number:" 
+read first_number
+echo  -n "Enter second number:" 
+read second_number
+prod=$(($first_number * $second_number))
+echo "The product of $first_number and $second_number is: $prod"
+
